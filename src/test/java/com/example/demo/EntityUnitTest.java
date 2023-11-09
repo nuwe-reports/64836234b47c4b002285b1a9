@@ -162,9 +162,6 @@ class EntityUnitTest {
                 LocalDateTime.of(2023, 1, 3, 14, 30));
 
         assertThat(a3.overlaps(problemsWhitDatesAppointment)).isTrue();
-
-        //LocalDateTime.of(2023, 1, 3, 14, 0),
-          //      LocalDateTime.of(2023, 1, 3, 15, 0));
     }
 
 
